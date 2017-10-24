@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace WebApp.Tests
+namespace UnicornLab.WebApp.Tests
 {
     [TestFixture]
     public class UnitTest1
