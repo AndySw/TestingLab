@@ -52,7 +52,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Framework\Browser.cs" />
+    <Compile Include="Framework\Extensions.cs" />
+    <Compile Include="Framework\Pages\ContactPage.cs" />
+    <Compile Include="Framework\Pages\DefaultPage.cs" />
+    <Compile Include="Framework\Pages\Pages.cs" />
+    <Compile Include="Framework\Pages\TopNavigationPage.cs" />
+    <Compile Include="Framework\WebServer.cs" />
+    <Compile Include="Unit\UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +71,10 @@
       <Project>{557995f4-63de-4a31-9bb1-80ee14e4b193}</Project>
       <Name>WebApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Acceptance\" />
+    <Folder Include="Integration\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
