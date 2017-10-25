@@ -11,7 +11,7 @@ using OpenQA.Selenium.Support.UI;
 // VS.NET    disable Value never assigned
 #pragma warning disable 649
 
-namespace UnicornLab.Tests.Framework.Pages
+namespace TestingLab.Tests.Framework.Pages
 {
     public class DefaultPage
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace UnicornLab.Tests.Framework.Pages
+namespace TestingLab.Tests.Framework.Pages
 {
     public static class Pages
     {

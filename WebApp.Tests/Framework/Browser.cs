@@ -7,7 +7,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 
-namespace UnicornLab.Tests.Framework
+namespace TestingLab.Tests.Framework
 {
     public static class Browser
     {

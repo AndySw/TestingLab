@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Linq;
 
-namespace UnicornLab.Tests.Framework
+namespace TestingLab.Tests.Framework
 {
     public class WebServer
     {

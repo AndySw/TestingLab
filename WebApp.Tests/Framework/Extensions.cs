@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 
-namespace UnicornLab.Tests.Framework
+namespace TestingLab.Tests.Framework
 {
     public static class Extensions
     {

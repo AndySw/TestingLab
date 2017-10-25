@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace UnicornLab.WebApp
+namespace TestingLab.WebApp
 {
     public class BundleConfig
     {
